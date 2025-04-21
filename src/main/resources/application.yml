@@ -14,3 +14,7 @@ spring:
     token: your-influxdb-token
     org: zemolxe
     bucket: energy-data
+  mqtt:
+    client:
+      id: zemolxe-client
+      server-uri: tcp://localhost:1883
