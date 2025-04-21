@@ -9,3 +9,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+  influx:
+    url: http://localhost:8086
+    token: your-influxdb-token
+    org: zemolxe
+    bucket: energy-data
